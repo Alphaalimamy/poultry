@@ -1,5 +1,6 @@
 import React from "react";
-
+import InfoSection from "../InfoSection/InfoSection";
+import HomeDetails from "../HomeDetails/HomeDetails";
 // const particlesOption = {
 //   particles: {
 //     number: {
@@ -12,7 +13,12 @@ import React from "react";
 //   },
 //};
 const Home = () => {
-  return <div>Home</div>;
+  return (
+    <>
+      <InfoSection />
+      <HomeDetails />
+    </>
+  );
 };
 
 export default Home;

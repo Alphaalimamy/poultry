@@ -18,7 +18,7 @@ const Header = () => {
     <div>
       <header className="header">
         <LogoTitle>
-          <LogoSubtitle>PP</LogoSubtitle>SL
+          <LogoSubtitle>PPF</LogoSubtitle>ASL
         </LogoTitle>
 
         <MobileIcon onClick={handleClick}>

@@ -19,9 +19,13 @@ export const SingleService = styled.div`
   padding: 0.5rem;
   box-shadow: 0 8px 5px rgba(0, 0, 0, 0.5);
   transition: all 0.5s ease-in-out;
+  background: #fff;
+  color: #000;
+  border-radius: 1rem;
 
   &:hover {
-    background-color: hsl(205, 86%, 81%);
+    background-color: blue;
     transform: scale(1.1);
+    color: #fff;
   }
 `;

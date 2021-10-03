@@ -25,7 +25,7 @@ const Footer = () => {
       <div className="footer">
         <div className="footer-time">
           <h2 className="logo">
-            <span>PP</span>SL
+            <span>PPF</span>ASL
           </h2>
           <p>Weekdays: 08:00am - 08:00pm</p>
           <p>Weekdays: 08:00am - 08:00pm</p>

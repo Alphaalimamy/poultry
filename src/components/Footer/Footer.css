@@ -5,7 +5,9 @@
   gap: 1.5rem;
 }
 .footer-info {
-  background: #121333;
+  background: linear-gradient(to top left, #121333, #0c1360);
+  /* background: linear-gradient(to top left, #28b487, #7dd56f); */
+  /* background:; */
   color: #fff;
 }
 .footer form {

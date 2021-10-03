@@ -7,11 +7,11 @@ import HomeDetailInfo from "./HomeDetailInfo";
 
 const HomeDetails = () => {
   return (
-    <>
+    <div className="homeD">
       {" "}
       <HomeDetailInfo {...homeObjOne} />
       <ServiceDetails {...homeObjOne} />
-    </>
+    </div>
   );
 };
 
