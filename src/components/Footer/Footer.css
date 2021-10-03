@@ -1,0 +1,69 @@
+.footer {
+  padding: 5em 7%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(10rem, 1fr));
+  gap: 1.5rem;
+}
+.footer-info {
+  background: #121333;
+  color: #fff;
+}
+.footer form {
+  display: block;
+}
+.footer-time h2 span {
+  color: gold;
+}
+.footer-time {
+  text-align: center;
+}
+.contact-form input,
+textarea {
+  width: 100%;
+}
+
+.contact-form input,
+textarea {
+  margin-bottom: 0.5rem;
+  border-radius: 0.2rem;
+  padding: 0.5rem;
+  background: #242554;
+  color: #fff;
+  border: 1.5px solid #000;
+}
+
+.contact-form input::placeholder {
+  text-transform: uppercase;
+  color: inherit;
+  padding: 0.2rem;
+  color: #fff;
+}
+.contact-form textarea::placeholder {
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.copyright {
+  text-align: center;
+  font-size: 1.5rem;
+  margin-top: 0;
+  padding-bottom: 2rem;
+}
+.footer-time a {
+  color: #fff;
+  font-size: 1.2rem;
+  padding: 0.5rem;
+  background: inherit;
+}
+@media screen and (max-width: 768px) {
+  .footer {
+    display: inline-block;
+  }
+  .footer-time,
+  .footer-contact,
+  .contact-form {
+    padding: 0.5rem;
+    width: 90%;
+    text-align: center;
+  }
+}
