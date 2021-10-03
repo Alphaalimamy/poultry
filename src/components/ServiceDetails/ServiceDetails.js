@@ -3,16 +3,17 @@ import {
   BottomTitle,
   ServiceTitle,
   ServiceDescription,
+  SingleService,
 } from "./ServiceDetails.elements";
 const ServiceDetails = ({ bottomData }) => {
   return (
     <div>
       <BottomTitle>
         {bottomData.map((singleData) => (
-          <div>
+          <SingleService>
             <ServiceTitle>{singleData.title}</ServiceTitle>
             <ServiceDescription>{singleData.content}</ServiceDescription>
-          </div>
+          </SingleService>
         ))}
       </BottomTitle>
     </div>
