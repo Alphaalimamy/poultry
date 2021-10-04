@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
+
 import {
   LogoTitle,
   LogoSubtitle,
@@ -26,7 +27,7 @@ const Header = () => {
         </MobileIcon>
         <NavMenu onClick={handleClick} click={click}>
           <NavLinks to="/">Home</NavLinks>
-          <NavLinks to="about">About</NavLinks>
+          <NavLinks to="/about">About</NavLinks>
           <NavLinks to="services">Services</NavLinks>
           <NavLinks to="blogs">Blogs</NavLinks>
           <NavLinks to="team">Team</NavLinks>

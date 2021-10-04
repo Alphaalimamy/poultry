@@ -3,6 +3,7 @@
   display: flex;
 }
 .homeD {
-  background: linear-gradient(to top left, #dfe6e4, #7dd56f);
+  /* background: linear-gradient(to top left, #dfe6e4, #7dd56f); */
+  background: #eee;
   color: #000;
 }

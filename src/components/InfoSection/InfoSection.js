@@ -6,12 +6,12 @@ const InfoSection = () => {
     <div className="info">
       <Typed
         strings={[
-          "The home of best chicken in Salone",
-          "We provide natural and orgainc eggs in Salone",
-          "The best taste of natural chicken in Salone",
+          "Welcome to PPFASL website",
+          "We are here to coordinate the activities of farmers in Sierra Leone",
+          "Kindly reach out to us if you want to reach any Pig or Poultry farmer in the Nation",
         ]}
         typeSpeed={50}
-        backSpeed={50}
+        backSpeed={30}
         backDelay={1}
         loop
         smartBackspace

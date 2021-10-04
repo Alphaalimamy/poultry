@@ -82,7 +82,7 @@ const Footer = () => {
           ></textarea>
         </form>
       </div>
-      <p className="copyright">All righs reserved &copy; PPSL {date}</p>
+      <p className="copyright">All rights reserved &copy; PPFASL {date}</p>
     </div>
   );
 };

@@ -23,7 +23,10 @@ export const NavMenu = styled.nav`
     left: ${({ click }) => (click ? 0 : "-100%")};
     opacity: 1;
     transition: all 0.5s ease-in-out;
-    background: #101522;
+    background: #61b15a;
+    color: blue;
+    z-index: 1;
+    /* background: #101522; */
   }
 `;
 
@@ -61,9 +64,9 @@ export const NavLinks = styled(Link)`
   display: flex;
   align-items: center;
   text-decoration: none;
-  padding: 0.5rem 1rem;
+  padding: 0.2rem 1rem;
   height: 100%;
-
+  font-size: 1.5rem;
   &:hover {
     border-bottom: 1px solid #fff;
     transition: all 0.5s ease-in-out;
@@ -75,9 +78,9 @@ export const NavLinks = styled(Link)`
     width: 100%;
     display: table;
     margin-top: 0;
-
+    color: #fff;
     &:hover {
-      color: #4b59f7;
+      color: #000;
       transition: all 0.5s ease;
     }
   }
