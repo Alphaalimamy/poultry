@@ -17,7 +17,7 @@ export const History = ({ data }) => {
       </HistoryTitle>
       <HistoryContent>
         {data.map((singleData) => (
-          <DataContainer>
+          <DataContainer key={singleData.id}>
             <DataTitle>{singleData.title}</DataTitle>
             <DataContent>{singleData.content}</DataContent>
           </DataContainer>

@@ -5,7 +5,7 @@ export const TeamContainer = styled.div`
   background: #eee;
 `;
 export const SingleTeamContainer = styled.div`
-  width: 20rem;
+  /* width: 17rem; */
   box-shadow: 0 8px 9px rgba(0, 0, 0, 0.4);
   background: #fff;
   border-radius: 0.5rem;
@@ -61,6 +61,6 @@ export const IconLink = styled(Link)`
 `;
 export const ContainerTeam = styled.div`
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
   gap: 1.5rem;
 `;

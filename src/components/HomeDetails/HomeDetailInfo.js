@@ -20,8 +20,8 @@ const HomeDetailInfo = ({ imgSrc, data, imgStart }) => {
             <TopHeadingOne>Founded IN 2010</TopHeadingOne>
             <TopHeadingTwo>OUR FARM</TopHeadingTwo>
             <TopHeadingThree>Who WE ARE</TopHeadingThree>
-            {data.map((d) => (
-              <div>
+            {data.map((d, index) => (
+              <div key={index}>
                 <HeadingThreeTitle>{d.title}</HeadingThreeTitle>
                 <Description>{d.content}</Description>
               </div>

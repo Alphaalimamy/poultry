@@ -14,6 +14,7 @@ import {
   TeamSpan,
 } from "./Team.elements";
 import { FaTwitter, FaFacebook, FaInstagramSquare } from "react-icons/fa";
+import Galery from "../gallery/Galery";
 const Team = ({ data }) => {
   return (
     <TeamContainer>
@@ -22,7 +23,7 @@ const Team = ({ data }) => {
       </TeamTitle>
       <ContainerTeam>
         {data.map((team) => (
-          <SingleTeamContainer>
+          <SingleTeamContainer key={team.id}>
             <ImageWrapper>
               <Img src={team.image} alt="" />
             </ImageWrapper>
@@ -44,6 +45,8 @@ const Team = ({ data }) => {
           </SingleTeamContainer>
         ))}
       </ContainerTeam>
+
+      <Galery />
     </TeamContainer>
   );
 };
